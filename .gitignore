@@ -5,3 +5,16 @@ results.zip
 .streamlit
 
 
+# Python build artifacts
+dist/
+build/
+*.spec
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+env/
