@@ -25,3 +25,5 @@ build/
 
 # Experiment CSV results
 *.csv
+
+*.png
