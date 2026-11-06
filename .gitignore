@@ -18,3 +18,10 @@ __pycache__/
 venv/
 .venv/
 env/
+
+# Generated build files
+dist/
+build/
+
+# Experiment CSV results
+*.csv
