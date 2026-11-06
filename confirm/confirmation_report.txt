@@ -1,0 +1,45 @@
+
+══════════════════════════════════════════════════════════════════════════════
+  AC-PPO FINAL HYPERPARAMETER CONFIRMATION REPORT
+  Environment : LunarLander-v3
+  Seeds       : [42, 1, 2, 3, 4]
+  Episodes    : 2000
+══════════════════════════════════════════════════════════════════════════════
+
+  ── Hyperparameters (to be frozen) ──
+      τ  (conflict threshold)      = 0.1
+      β_max (max cog influence)    = 0.3
+      d  (affective cost tol.)     = 0.2
+      λ  (constraint weight)       = 0.05
+      k  (sigmoid slope)           = 10.0
+
+  ── Base PPO (locked, SB3 defaults) ──
+      lr=0.0003  γ=0.99  λ_GAE=0.95  ε_clip=0.2
+      rollout_steps=1024  ppo_epochs=4  mini_batch=64
+
+  ── Performance Metrics ──
+      Final Mean Eval  : -47.781
+      Overall Mean Eval: -52.642  ± 53.236
+      Best Eval        : +17.614
+      Success Rate     : 0.967
+
+  ── Cognitive-Affective Regulation Metrics ──
+      Avg JS Divergence  : 0.0739
+      Avg β_t            : 0.1300
+      Avg Violation Rate : 0.0142
+
+  ── Freeze Recommendation ──
+      Reward threshold (> -120)  : ✓ PASS  (-47.78)
+      Success rate   (> 0.95)    : ✓ PASS  (0.967)
+      Avg violation  (< 0.05)    : ✓ PASS  (0.0142)
+
+  ✅  ALL CHECKS PASSED — Safe to freeze these hyperparameters.
+      Update FullConfig defaults in train_full_model.py:
+          tau          = 0.1
+          beta_max     = 0.3
+          d_threshold  = 0.2
+          lambda_coef  = 0.05
+          k_slope      = 10.0
+
+  Wall time: 1031s (17.2 min)
+══════════════════════════════════════════════════════════════════════════════

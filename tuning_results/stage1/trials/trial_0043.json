@@ -1,0 +1,55 @@
+{
+  "trial_id": 43,
+  "timestamp": "2026-07-26T04:37:45.665775Z",
+  "params": {
+    "tau": 0.01,
+    "beta_max": 0.3,
+    "d_threshold": 0.2,
+    "lambda_coef": 0.2,
+    "k_slope": 5.0
+  },
+  "params_readable": {
+    "\u03c4 (conflict threshold)": 0.01,
+    "\u03b2_max (max cognitive influence)": 0.3,
+    "d (affective cost tolerance)": 0.2,
+    "\u03bb (constraint weight)": 0.2,
+    "k (sigmoid slope)": 5.0
+  },
+  "n_seeds": 1,
+  "seeds": [
+    42
+  ],
+  "episodes": 400,
+  "mean_eval": -131.767,
+  "final_mean_eval": -118.037,
+  "std_eval": 21.845,
+  "best_eval": -112.256,
+  "succ_rate": 1.0,
+  "avg_divergence": 0.022,
+  "avg_beta": 0.1543,
+  "avg_violation": 0.0051,
+  "per_seed": [
+    {
+      "seed": 42,
+      "mean_eval": -131.767,
+      "final_mean_eval": -118.037,
+      "best_eval": -112.256,
+      "eval_reward_curve": [
+        -176.855,
+        -121.843,
+        -137.796,
+        -112.256,
+        -127.245,
+        -114.61
+      ],
+      "eval_success_curve": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ]
+}

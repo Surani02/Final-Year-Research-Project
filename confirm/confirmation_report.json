@@ -1,0 +1,19 @@
+{
+  "trial_id": 1,
+  "params": {
+    "tau": 0.1,
+    "beta_max": 0.3,
+    "d_threshold": 0.2,
+    "lambda_coef": 0.05,
+    "k_slope": 10.0
+  },
+  "mean_eval": -52.642,
+  "final_mean_eval": -47.781,
+  "std_eval": 53.236,
+  "best_eval": 17.614,
+  "succ_rate": 0.967,
+  "avg_divergence": 0.0739,
+  "avg_beta": 0.13,
+  "avg_violation": 0.0142,
+  "n_seeds": 5
+}

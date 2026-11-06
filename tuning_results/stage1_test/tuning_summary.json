@@ -1,0 +1,40 @@
+[
+  {
+    "trial_id": 1,
+    "params": {
+      "tau": 0.01,
+      "beta_max": 0.3,
+      "d_threshold": 0.2,
+      "lambda_coef": 0.1,
+      "k_slope": 5.0
+    },
+    "mean_eval": -186.57,
+    "final_mean_eval": NaN,
+    "std_eval": 0.0,
+    "best_eval": -186.57,
+    "succ_rate": 1.0,
+    "avg_divergence": 0.0225,
+    "avg_beta": 0.1546,
+    "avg_violation": 0.0043,
+    "n_seeds": 1
+  },
+  {
+    "trial_id": 2,
+    "params": {
+      "tau": 0.05,
+      "beta_max": 0.3,
+      "d_threshold": 0.2,
+      "lambda_coef": 0.05,
+      "k_slope": 15.0
+    },
+    "mean_eval": -262.785,
+    "final_mean_eval": NaN,
+    "std_eval": 0.0,
+    "best_eval": -262.785,
+    "succ_rate": 1.0,
+    "avg_divergence": 0.0154,
+    "avg_beta": 0.1124,
+    "avg_violation": 0.0021,
+    "n_seeds": 1
+  }
+]

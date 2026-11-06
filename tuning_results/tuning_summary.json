@@ -1,0 +1,17 @@
+[
+  {
+    "trial_id": 1,
+    "params": {
+      "tau": 0.3,
+      "beta_max": 0.3,
+      "d_threshold": 0.05,
+      "lambda_coef": 0.2,
+      "k_slope": 10.0
+    },
+    "mean_eval": -241.994,
+    "final_mean_eval": -241.994,
+    "std_eval": 0.0,
+    "best_eval": -241.994,
+    "succ_rate": 1.0
+  }
+]

@@ -1,0 +1,16 @@
+[2026-07-26 10:59:45]   Sensitivity analysis — best config: {'tau': 0.1, 'beta_max': 0.3, 'd_threshold': 0.2, 'lambda_coef': 0.05, 'k_slope': 10.0}
+[2026-07-26 11:00:59]   Sensitivity analysis — best config: {'tau': 0.1, 'beta_max': 0.3, 'd_threshold': 0.2, 'lambda_coef': 0.05, 'k_slope': 10.0}
+[2026-07-26 11:00:59] ======================================================================
+[2026-07-26 11:00:59]   Sensitivity — 9 trials  |  6 parallel workers
+[2026-07-26 11:00:59]   Streaming log → tuning_results/sensitivity/training_log.jsonl
+[2026-07-26 11:00:59] ======================================================================
+[2026-07-26 11:02:29]   [  1/9]  Trial #1003  FinalMean=-130.629  Mean=-159.397  Best=-126.975  Succ=1.000  AvgD=0.0220  Avgβ=0.0448  AvgViol=0.0019  | τ=0.2 β=0.3 d=0.2 λ=0.05 k=10.0
+[2026-07-26 11:02:37]   [  2/9]  Trial #1000  FinalMean=-163.391  Mean=-161.425  Best=-126.648  Succ=1.000  AvgD=0.0260  Avgβ=0.1611  AvgViol=0.0063  | τ=0.01 β=0.3 d=0.2 λ=0.05 k=10.0
+[2026-07-26 11:02:39]   [  3/9]  Trial #1001  FinalMean=-140.805  Mean=-155.663  Best=-116.139  Succ=1.000  AvgD=0.0390  Avgβ=0.1397  AvgViol=0.0076  | τ=0.05 β=0.3 d=0.2 λ=0.05 k=10.0
+[2026-07-26 11:02:39]   [  4/9]  Trial #1005  FinalMean=-158.279  Mean=-168.498  Best=-123.359  Succ=1.000  AvgD=0.0232  Avgβ=0.2236  AvgViol=0.0090  | τ=0.1 β=0.7 d=0.2 λ=0.05 k=10.0
+[2026-07-26 11:02:40]   [  5/9]  Trial #1002  FinalMean=-168.530  Mean=-158.460  Best=-118.157  Succ=1.000  AvgD=0.0436  Avgβ=0.0795  AvgViol=0.0062  | τ=0.15 β=0.3 d=0.2 λ=0.05 k=10.0
+[2026-07-26 11:02:42]   [  6/9]  Trial #1004  FinalMean=-170.381  Mean=-173.777  Best=-153.371  Succ=1.000  AvgD=0.0302  Avgβ=0.1675  AvgViol=0.0066  | τ=0.1 β=0.5 d=0.2 λ=0.05 k=10.0
+[2026-07-26 11:04:09]   [  7/9]  Trial #1008  FinalMean=-128.551  Mean=-150.672  Best= -98.105  Succ=1.000  AvgD=0.0239  Avgβ=0.0963  AvgViol=0.0072  | τ=0.1 β=0.3 d=0.1 λ=0.05 k=10.0
+[2026-07-26 11:04:12]   [  8/9]  Trial #1007  FinalMean=-130.697  Mean=-133.658  Best= -90.964  Succ=1.000  AvgD=0.0285  Avgβ=0.0995  AvgViol=0.0131  | τ=0.1 β=0.3 d=0.05 λ=0.05 k=10.0
+[2026-07-26 11:04:12]   [  9/9]  Trial #1006  FinalMean=-104.187  Mean=-141.903  Best= -78.470  Succ=1.000  AvgD=0.0562  Avgβ=0.1169  AvgViol=0.0083  | τ=0.1 β=0.3 d=0.2 λ=0.1 k=10.0
+[2026-07-26 11:04:13]   Sensitivity figure saved → tuning_results/sensitivity/sensitivity_analysis.png

@@ -1,0 +1,15 @@
+# Core scientific computing
+numpy>=1.26
+
+# Deep learning framework
+torch>=2.2
+
+# Reinforcement learning environments
+# [box2d] extra required for LunarLander-v3 and BipedalWalker-v3
+gymnasium[box2d]>=0.29
+
+# Plotting / visualisation (used for result figures)
+matplotlib>=3.8
+
+# Interactive web demo (web_demo/ Streamlit app)
+streamlit>=1.40
